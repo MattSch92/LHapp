@@ -1,0 +1,221 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: auto;
+  /*background: linear-gradient(135deg, rgb(219, 134, 236), rgb(139, 107, 182)); /* Fixed gradient syntax */ 
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: -1;
+}
+
+input.search-input, select.filter-select {
+  padding: 8px;
+  margin: 10px 0;
+  width: 200px;
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+input.search-input:hover, select.filter-select:hover { 
+  background-color: #ffeb99;
+  border-color: #ffcc00;
+}
+
+button {
+  padding: 10px 20px; 
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #010f02;
+  transform: scale(1.05);
+}
+
+.ingredient-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 2.5vh; /* FONT SIZE INGREDIENT */ 
+}
+
+.ingredient-table th,
+.ingredient-table td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  border: 2px solid black;
+}
+
+.ingredient-box {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease; 
+}
+
+.ingredient-box:hover {
+  background: #ffd54f;
+  color: black;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.category-box {
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  border: 2px solid black;
+  font-size: 2.2vh;
+}
+
+.rank-box {
+  text-align: center;
+  padding: 10px;
+  font-size: 5vh;
+  text-shadow:  
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+   -2px  2px 0 #000,
+    2px  2px 0 #000;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.rank-box.rank-0 {
+  color: #4caf50; 
+}
+
+.rank-box.rank-1 {
+  color: #fbc02d;
+}
+
+.rank-box.rank-2 {
+  color: #ff9800;
+}
+
+.rank-box.rank-3 {
+  color: #f44336;
+}
+
+.ingredient-table th {
+  background-color: #00796b;
+  color: white;
+  font-weight: bold;
+  font-size: 2.2vh;
+  padding: 15px;
+  border: 2px solid black;
+  box-shadow: inset 0 -4px 0 #004d40;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ingredient-table th:hover {
+  background-color: #004d40;
+}
+
+.ingredient-table tr:hover {
+  background-color: #e0f7fa;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.compatScape {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.compatibility-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px black solid;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 600px; /* Restrict width */
+  width: 90%; /* Adjust width to be responsive */
+  background-color: #f9f9f9;
+  margin: 20px auto; /* Center the chart horizontally with auto margins */
+}
+
+.compatibility-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%; /* Ensure rows take up the full width of the container */
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.compatibility-row:last-child {
+  border-bottom: none;
+}
+
+.compatibility-label {
+  font-weight: bold;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.compatibility-label-0 {
+  color: #4caf50;
+  font-size: 2rem;
+}
+
+.compatibility-label-1 {
+  color: #fbc02d;
+  font-size:  2rem;
+}
+
+.compatibility-label-2 {
+  color: #ff9800;
+  font-size: 2rem;
+}
+
+.compatibility-label-3 {
+  color: #f44336;
+  font-size: 2rem;
+}
+
+.compatibility-label-4, .compatibility-label-5 {
+  font-size: 2em;
+}
+
+.compatibility-description {
+  flex: 1;
+}
+

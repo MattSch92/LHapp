@@ -1,0 +1,20 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
