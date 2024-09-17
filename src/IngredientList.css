@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: SUSE;
   margin: 0;
   padding: 20px;
   position: relative;
@@ -219,7 +219,6 @@ button:hover {
   flex: 1;
 }
 
-/* Modal backdrop */
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -233,7 +232,6 @@ button:hover {
   z-index: 999;
 }
 
-/* Modal content */
 .modal-content {
   background-color: #fff;
   padding: 20px;
@@ -245,9 +243,19 @@ button:hover {
   margin-bottom: 20px;
 }
 
+.modal-content textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .modal-content button {
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
 }
 
+.note-text {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
