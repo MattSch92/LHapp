@@ -832,7 +832,7 @@ export const ingredients = [
     { id: 918, name: "Starch / Amylum", category: "Food Additives", rank: 0 },
     { id: 919, name: "Steviol glycosides / E960", category: "Food Additives", rank: 0 },
     { id: 920, name: "Sucralose / E955", category: "Food Additives", rank: 0 },
-    { id: 921, name: "Sulfites / Sulphites / E220, E221, E222, E223, E224, E225, E226, E227, E228", category: "Food Additives", rank: 2 },
+    { id: 959, name: "Sulfites / Sulphites / E220, E221, E222, E223, E224, E225, E226, E227, E228", category: "Food Additives", rank: 2 },
     { id: 921, name: "Sulfur dioxide / Sulphur dioxide / E220", category: "Food Additives", rank: 2 },
     { id: 922, name: "Sulphan blue / E131", category: "Food Additives", rank: 2 },
     { id: 923, name: "Sulphite ammonia caramel / E150d", category: "Food Additives", rank: 0 },
