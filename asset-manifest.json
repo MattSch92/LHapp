@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LHapp/static/css/main.9291fd0f.css",
-    "main.js": "/LHapp/static/js/main.b7b81c0e.js",
+    "main.css": "/LHapp/static/css/main.e33d171e.css",
+    "main.js": "/LHapp/static/js/main.b1743a71.js",
     "static/js/453.584af2f0.chunk.js": "/LHapp/static/js/453.584af2f0.chunk.js",
     "index.html": "/LHapp/index.html",
-    "main.9291fd0f.css.map": "/LHapp/static/css/main.9291fd0f.css.map",
-    "main.b7b81c0e.js.map": "/LHapp/static/js/main.b7b81c0e.js.map",
+    "main.e33d171e.css.map": "/LHapp/static/css/main.e33d171e.css.map",
+    "main.b1743a71.js.map": "/LHapp/static/js/main.b1743a71.js.map",
     "453.584af2f0.chunk.js.map": "/LHapp/static/js/453.584af2f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9291fd0f.css",
-    "static/js/main.b7b81c0e.js"
+    "static/css/main.e33d171e.css",
+    "static/js/main.b1743a71.js"
   ]
 }
